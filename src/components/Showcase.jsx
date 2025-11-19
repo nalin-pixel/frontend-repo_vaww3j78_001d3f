@@ -26,7 +26,7 @@ const verticals = [
 
 export default function Showcase(){
   return (
-    <section id="solutions" className="relative py-24 bg-slate-950">
+    <section id="solutions" className="relative py-24">
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-12 gap-10 items-start">
           <div className="lg:col-span-5">

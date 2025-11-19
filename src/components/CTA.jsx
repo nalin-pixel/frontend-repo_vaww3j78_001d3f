@@ -3,8 +3,8 @@ import { ShieldCheck, CheckCircle2 } from 'lucide-react'
 
 export default function CTA(){
   return (
-    <section id="cta" className="relative py-24 bg-slate-950">
-      <div className="absolute inset-0 opacity-40 bg-[radial-gradient(600px_300px_at_80%_0%,rgba(56,189,248,0.25),transparent)]" />
+    <section id="cta" className="relative py-24">
+      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(600px_300px_at_80%_0%,rgba(56,189,248,0.25),transparent)]" />
       <div className="relative mx-auto max-w-5xl px-6">
         <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/5 to-white/[0.03] p-8 sm:p-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">

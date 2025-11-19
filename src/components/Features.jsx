@@ -36,8 +36,8 @@ const items = [
 
 export default function Features() {
   return (
-    <section id="features" className="relative py-24 bg-slate-950">
-      <div className="absolute inset-0 opacity-40 bg-[radial-gradient(800px_400px_at_20%_20%,rgba(56,189,248,0.25),transparent),radial-gradient(800px_400px_at_80%_60%,rgba(99,102,241,0.2),transparent)]" />
+    <section id="features" className="relative py-24">
+      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(800px_400px_at_20%_20%,rgba(56,189,248,0.25),transparent),radial-gradient(800px_400px_at_80%_60%,rgba(99,102,241,0.2),transparent)]" />
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="text-center max-w-2xl mx-auto">
           <motion.h2 initial={{opacity:0,y:12}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{duration:0.6}} className="text-3xl sm:text-5xl font-bold text-white">
